@@ -10,11 +10,13 @@ body{
     font-family: 'Raleway', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 1.6rem;
     line-height: 1.6;
-    color: white;  
+    color: white;
+      
 }
 
 h1 {
     color: black;
+    
 }
 
 #main{
@@ -92,3 +94,9 @@ input[type=submit]:hover {
     font-size: larger;
     background-color: #45a049;
 }
+
+legend, .name, .email, .number, .dropdown, .textarea {
+    font-weight: bold;
+}
+
+

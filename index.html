@@ -18,16 +18,16 @@
 
         <form id="survey-form" action="#">
             
-            <label for="name" id="name-label">Name</label>
+            <label for="name" id="name-label" class="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required>
 
-            <label for="email" id="email-label">Email</label>
+            <label for="email" id="email-label" class="email">Email</label>
             <input type="email" id="email" name="email" placeholder="codecamp@gmail.com" required>
 
-            <label for="number"id="number-label">Age <em>(optional)</em></label>
+            <label for="number"id="number-label" class="number">Age <em>(optional)</em></label>
             <input type="number" id="number" name="number" placeholder="18" required min="10" max="99">
 
-            <label for="dropdown">What do you know about codecamp ?</label>
+            <label for="dropdown" class="dropdown">What do you know about codecamp ?</label>
             <select id="dropdown" name="dropdown"> 
                 <option value="unware">Completely Unware</option>
                 <option value="notMuch">Not very much</option>
@@ -65,7 +65,7 @@
                 <label for="back-end">Back End Projects</label><br/>
             </fieldset>
 
-            <label for="comment">Thanks for your time and how was our survey ?</label>
+            <label for="comment" class="textarea">Thanks for your time and how was our survey ?</label>
             <textarea id="comment" name="comment" rows=7 placeholder="Enter your comments here"></textarea>
         
             <input type="submit" id="submit" value="Submit">
